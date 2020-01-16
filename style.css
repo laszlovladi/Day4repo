@@ -1,0 +1,36 @@
+nav a{
+    color: crimson;
+    text-decoration: none;
+}
+
+#about blockquote {
+    background-color: #eaeaea;
+}
+
+#users span {
+    font-weight: bold;
+}
+
+#users span:nth-child(2) {
+    color: crimson;
+
+}
+
+#creators a:nth-child(1){
+    font-family: 'Lato', serif;
+    text-decoration: none;
+}
+
+#creators a:nth-child(n+2){
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+#cta h2{
+    color: crimson;
+    font-family: 'Lato', serif;
+}
+
+li:nth-child(even){
+    text-decoration: underline;
+}
